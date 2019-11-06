@@ -26,9 +26,9 @@ The general flow of data is visually summarized above. Starting with the raw rec
 - Generated topic keywords for a select number of recipes helps refine recipe results.
 
 ### Search Performance and Detailed Parameter Selection
-For more detailed analysis of the search performance please reference to the presentation slides included in the repo. Included in the presentation slides are the various model parameters and the model tuning and evaluation process.
+For more detailed analysis of the search performance please reference the presentation slides and ipython notebook included in the repo. Included in the presentation slides are the various model parameters and the model tuning and evaluation process.
 
 ### Summary of Conclusions
-While this search algorithm works quite well, it unfortuantely underutilizes the generated keywords produced using topic modelling and TextRank. The search engine penalizes recipes without any appended keywords and the tuning process neglects to include around 10,000 recipes from receiving keywords. Also, because dense word embeddings were not used, it is required for keywords to be included in the search query for there to be any similarity to the keywords at all; a better model would to generate keywords using dense word embeddings so that search query ingredients can load similarity score based on a semantic similarity.
+While this search algorithm works quite well, it unfortuantely underutilizes the generated keywords produced using topic modelling and TextRank. The search engine penalizes recipes without any appended keywords and the tuning process neglects to include around 10,000 recipes from receiving keywords. Also, because dense word embeddings were not used, it is required for keywords to be included in the search query for there to be any similarity to the keywords at all; a better model would to generate keywords using dense word embeddings so that search query ingredients can load similarity scores based on a semantic similarity.
 
 That being said, the cosine similarity scoring does return intriguing and useful recipes that fit the original purpose of the search algorithm. Different ingredients can be paired to find interesting and tasty recipes that one wouldn't normally encounter.
