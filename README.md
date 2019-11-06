@@ -7,8 +7,8 @@ Home cooks everywhere always look for inspiration for new dishes to make. Search
 Data was pulled from github account rtlee9 who prescraped data from Allrecipes.com, Foodnetwork.com, and Epicurious.com. ~12500 recipes are included, including the title, ingredients, and instructions for each recipe.
 
 ### Goals:
-1. Perform unsupervised Topic Modeling on the recipes to groups recipes into categories. Then performing TextRank on the generated topics to produce keyword summarizations that can stand in as category names for each topic.
-2. Create a search algorithm that utilizes similarity scoring to rank recipes accoring to the most greatest similarity to the search query.
+1. Perform unsupervised Topic Modeling on the recipes to group recipes into categories. Then perform TextRank on the generated topics to produce keyword summarizations that can stand in as category names for each topic.
+2. Create a search algorithm that utilizes similarity scoring to rank recipes according to the greatest similarity to the search query.
 
 ![Data Model Flow Chart](RecipeDataFlowChart.png)
 
