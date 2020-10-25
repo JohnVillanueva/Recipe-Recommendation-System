@@ -1,7 +1,7 @@
 # Recipe Recommendation System :hamburger: :pizza:
 
 ### Overview
-Home cooks everywhere always look for inspiration for new dishes to make. Searching through google helps, but google search queries return better results for just food categories (e.g. italian, japanese, baking, sauces, etc.). This recipe recommendation system intends to refine the recipe search process by allowing users to search recipes based on specific ingredients that they have or intend to use. The primary advantage for this search method is the ability to find recipes that incorporate disparate or unlikely ingredient pairings, allowing adventurous home cooks to find the cooking inspiration they otherwise couldn't find.
+Home cooks everywhere are always look for inspiration for new dishes to make. Searching through google helps, but google search queries return better results for just food categories (e.g. italian, japanese, baking, sauces, etc.). This recipe recommendation system intends to refine the recipe search process by allowing users to search recipes based on specific ingredients that they have or intend to use. The primary advantage for this search method is the ability to find recipes that incorporate disparate or unlikely ingredient pairings, allowing adventurous home cooks to find the cooking inspiration they otherwise couldn't find.
 
 ### Project Data
 Data was pulled from github account rtlee9 who prescraped data from Allrecipes.com, Foodnetwork.com, and Epicurious.com. ~12500 recipes are included, including the title, ingredients, and instructions for each recipe.
